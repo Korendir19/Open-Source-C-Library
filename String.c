@@ -52,11 +52,3 @@ char* returnString(String* s)
 {
 	return s->c;
 }
-
-void main(int argc, char* argv)
-{
-	String* s = initString();
-
-	s = setString("");
-	printf_s("%d", returnLength(s));
-}
